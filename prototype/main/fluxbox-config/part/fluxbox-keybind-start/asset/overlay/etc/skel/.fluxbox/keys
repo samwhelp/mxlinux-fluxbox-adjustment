@@ -456,6 +456,9 @@ Mod1 Shift t :Exec qterminal
 Mod1 Control t :Exec lxterminal
 
 
+Mod1 Shift y :Exec xfce4-terminal --drop-down
+
+
 Mod1 Shift r :Exec rofi -show run
 Mod1 Shift w :Exec rofi -show window -show-icons
 Mod1 Shift d :Exec rofi -show drun -show-icons
