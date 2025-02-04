@@ -6,6 +6,7 @@
 | ---- | ------ |
 | [Mx Linux Fluxbox Adjustment](https://samwhelp.github.io/mxlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
 | [Mx Linux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
+| [Mx Linux Fluxbox Note](https://samwhelp.github.io/note-about-mxlinux-fluxbox/) | [GitHub](https://github.com/samwhelp/note-about-mxlinux-fluxbox) |
 
 
 
