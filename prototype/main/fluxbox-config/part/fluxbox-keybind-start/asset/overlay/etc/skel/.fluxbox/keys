@@ -17,11 +17,8 @@ OnTitlebar Mouse3 :WindowMenu
 OnTitlebar Mouse4 :Shade
 OnTitlebar Mouse5 :Shade
 
-!mouse actions added by fluxbox-update_configs
-##OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
-##OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
-OnWindow Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
-OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+
+
 
 
 
@@ -222,6 +219,66 @@ Mod1 F2 :Exec fbrun
 ##
 ### Tail: Tips / Mouse Button
 ################################################################################
+
+
+
+
+
+################################################################################
+### Head: Target / OnWindow / Mouse Button Modifier
+##
+
+
+##
+## ## Alt
+##
+
+##OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+##OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+
+
+##
+## ## Win
+##
+
+OnWindow Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+
+
+##
+### Tail: Target / OnWindow / Mouse Button Modifier
+################################################################################
+
+
+
+
+################################################################################
+### Head: Target / OnTitlebar / Mouse Button Modifier
+##
+
+
+##
+## ## Alt
+##
+
+##OnTitlebar Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+##OnTitlebar Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+
+
+##
+## ## Win
+##
+
+OnTitlebar Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+OnTitlebar Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+
+
+##
+### Tail: Target / OnTitlebar / Mouse Button Modifier
+################################################################################
+
+
+
 
 
 
