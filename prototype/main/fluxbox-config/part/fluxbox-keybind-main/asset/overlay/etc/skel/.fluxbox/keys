@@ -12,18 +12,24 @@ OnWindowBorder Move1 :StartMoving
 OnTitlebar Mouse2 :StartTabbing
 
 !mouse actions added by fluxbox-update_configs
-OnTitlebar Double Mouse1 :Shade
+OnTitlebar Double Mouse1 :Maximize
 OnTitlebar Mouse3 :WindowMenu
+OnTitlebar Mouse4 :Shade
+OnTitlebar Mouse5 :Shade
 
 !mouse actions added by fluxbox-update_configs
-OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
-OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+##OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+##OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+OnWindow Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
 
+##
 ## [Mouse1] for [Left Button Click]
 ## [Mouse2] for [Middle Button Click]
 ## [Mouse3] for [Right Button Click]
 ## [Mouse4] for [Middle Button Scroll Up]
 ## [Mouse5] for [Middle Button Scroll Down]
+##
 
 !mouse actions added by fluxbox-update_configs
 #OnDesktop Mouse1 :HideMenus
@@ -243,8 +249,8 @@ Control Mod4 s :WorkspaceMenu
 ### Head: App
 ##
 
-Mod1 Return :Exec sakura -m
-Mod1 Shift a :Exec sakura -m
+Mod1 Return :Exec xfce4-terminal
+Mod1 Shift a :Exec xfce4-terminal
 Mod1 Shift t :Exec tilix --quake
 
 Mod1 Shift r :Exec rofi -show run
@@ -252,10 +258,10 @@ Mod1 Shift w :Exec rofi -show window -show-icons
 Mod1 Shift d :Exec rofi -show drun -show-icons
 
 
-Mod1 Shift f :Exec pcmanfm-qt
+Mod1 Shift f :Exec thunar
 Mod1 Shift b :Exec firefox
-Mod1 Shift g :Exec nautilus
-Mod1 Shift e :Exec gedit
+Mod1 Shift g :Exec pcmanfm-qt
+Mod1 Shift e :Exec featherpad
 Mod1 Shift m :Exec pavucontrol
 #Mod1 Shift m :Exec mate-volume-control
 
