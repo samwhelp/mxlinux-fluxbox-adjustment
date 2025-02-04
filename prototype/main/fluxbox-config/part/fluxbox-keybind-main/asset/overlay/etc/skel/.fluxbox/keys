@@ -21,7 +21,6 @@ OnRightGrip Move1 :StartResizing bottomright
 
 
 
-
 # scroll on the toolbar to change current window
 OnToolbar Mouse4 :PrevWindow {static groups} (workspace=[current])  (iconhidden=no) !! FBCV13 !!
 OnToolbar Mouse5 :NextWindow {static groups} (workspace=[current])  (iconhidden=no) !! FBCV13 !!
@@ -30,8 +29,7 @@ OnToolbar Mouse5 :NextWindow {static groups} (workspace=[current])  (iconhidden=
 
 
 
-OnLeftGrip Move1 :StartResizing bottomleft
-OnRightGrip Move1 :StartResizing bottomright
+
 
 
 
