@@ -8,9 +8,7 @@
 
 
 
-# alt-tab
-Mod1 Tab :NextWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
-Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+
 
 # cycle through tabs in the current window
 Mod4 Tab :NextTab
@@ -459,6 +457,8 @@ Mod1 Shift m :Exec pavucontrol
 ################################################################################
 
 
+
+
 ################################################################################
 ### Head: Window
 ##
@@ -469,12 +469,7 @@ Mod1 Shift m :Exec pavucontrol
 #Mod1 space :WindowMenu
 
 
-# Window Switch
-Mod4 a :PrevWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
-Mod4 s :NextWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
 
-Mod4 h :PrevWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
-Mod4 l :NextWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
 
 
 
@@ -489,13 +484,15 @@ Mod1 F4 :Kill
 
 
 ## Window Maximize
-Mod4 m :Maximize
 Mod4 w :Maximize
+#Mod4 m :Maximize
+
 
 
 ## Window Minimize
-Mod4 n :Minimize
 Mod4 x :Minimize
+#Mod4 n :Minimize
+
 
 
 ## Window Toggle Shade
@@ -509,15 +506,56 @@ Mod4 v :ToggleDecor
 ## Window SetLayer Top
 Mod4 t :SetLayer Top
 
+
 ## Window SetLayer Normal
 Mod4 g :SetLayer Normal
+
 
 ## Window SetLayer Bottom
 Mod4 b :SetLayer Bottom
 
+
 ##
 ### Tail: Window
 ################################################################################
+
+
+
+
+################################################################################
+### Head: Window / Switch
+##
+
+
+##
+## alt-tab switcher
+##
+
+Mod1 Tab :NextWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+
+
+##
+## Window Switch / Win + {a,s}
+##
+
+Mod4 a :PrevWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+Mod4 s :NextWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+
+
+##
+## Window Switch / Win + {h,l}
+##
+
+Mod4 h :PrevWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+Mod4 l :NextWindow {groups} (workspace=[current])  (workspace=[current]) !! FBCV13 !!
+
+
+##
+### Tail: Window / Switch
+################################################################################
+
+
 
 
 ################################################################################
