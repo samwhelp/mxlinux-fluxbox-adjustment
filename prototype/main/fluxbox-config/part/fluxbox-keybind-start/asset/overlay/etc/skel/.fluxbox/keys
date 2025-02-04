@@ -7,7 +7,7 @@
 
 OnLeftGrip Move1 :StartResizing bottomleft
 OnRightGrip Move1 :StartResizing bottomright
-OnWindowBorder Move1 :StartMoving
+
 
 
 
@@ -26,16 +26,14 @@ OnWindowBorder Move1 :StartMoving
 OnToolbar Mouse4 :PrevWindow {static groups} (workspace=[current])  (iconhidden=no) !! FBCV13 !!
 OnToolbar Mouse5 :NextWindow {static groups} (workspace=[current])  (iconhidden=no) !! FBCV13 !!
 
-# alt + left/right click to move/resize a window
-OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
-OnWindowBorder Move1 :StartMoving
 
-OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
+
+
+
 OnLeftGrip Move1 :StartResizing bottomleft
 OnRightGrip Move1 :StartResizing bottomright
 
-# alt + middle click to lower the window
-OnWindow Mod1 Mouse2 :Lower
+
 
 
 
@@ -203,6 +201,10 @@ Mod1 F2 :Exec fbrun
 
 ##OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 ##OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+##OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
+
+## alt + middle click to lower the window
+#OnWindow Mod1 Mouse2 :Lower
 
 
 ##
@@ -211,6 +213,10 @@ Mod1 F2 :Exec fbrun
 
 OnWindow Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
+
+## alt + middle click to lower the window
+OnWindow Mod4 Mouse2 :Lower
 
 
 ##
@@ -244,6 +250,25 @@ OnTitlebar Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
 ##
 ### Tail: Target / OnTitlebar / Mouse Button Modifier
 ################################################################################
+
+
+
+
+
+
+
+################################################################################
+### Head: Target / OnWindowBorder
+##
+
+
+OnWindowBorder Move1 :StartMoving
+
+
+##
+### Tail: Target / OnWindowBorder
+################################################################################
+
 
 
 
