@@ -23,13 +23,7 @@ OnTitlebar Mouse5 :Shade
 OnWindow Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
 
-##
-## [Mouse1] for [Left Button Click]
-## [Mouse2] for [Middle Button Click]
-## [Mouse3] for [Right Button Click]
-## [Mouse4] for [Middle Button Scroll Up]
-## [Mouse5] for [Middle Button Scroll Down]
-##
+
 
 !mouse actions added by fluxbox-update_configs
 #OnDesktop Mouse1 :HideMenus
@@ -187,6 +181,33 @@ Mod1 F2 :Exec fbrun
 ##
 ### Tail: Manual
 ################################################################################
+
+
+
+
+################################################################################
+### Head: Tips / Mouse Button
+##
+
+##
+## ## Mouse Button
+##
+## | Mouse Button     | Action                       |
+## | ---------------- | ---------------------------- |
+## | `Double Mouse1`  | `Left Button Double Click`   |
+## | `Mouse1`         | `Left Button Click`          |
+## | `Mouse2`         | `Middle Button Click`        |
+## | `Mouse3`         | `Right Button Click`         |
+## | `Mouse4`         | `Middle Button Scroll Up`    |
+## | `Mouse5`         | `Middle Button Scroll Down`  |
+##
+
+##
+### Tail: Tips / Mouse Button
+################################################################################
+
+
+
 
 
 ################################################################################
