@@ -366,8 +366,15 @@ OnRightGrip Move1 :StartResizing bottomright
 ### Head: System / Leave
 ##
 
+
+## Shutdown
+Mod1 Shift z :Exec exit-options
+
+
 ## Logout
-Mod1 Shift x :Exit
+#Mod1 Shift x :Exit
+Mod1 Shift x :Exec exit-options
+
 
 ## Reconfigure
 Mod1 Shift c :Reconfigure
