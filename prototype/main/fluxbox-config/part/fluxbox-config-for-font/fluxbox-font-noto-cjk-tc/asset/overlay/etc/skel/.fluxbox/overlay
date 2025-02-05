@@ -32,7 +32,10 @@ window.font:							Noto Sans CJK TC-10
 ### Head: toolbar
 ##
 
-toolbar.height:							24
+
+#toolbar.height:							24
+toolbar.height:							30
+
 
 ##
 ### Tail: toolbar
