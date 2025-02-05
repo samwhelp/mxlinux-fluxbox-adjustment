@@ -612,7 +612,7 @@ Control Mod1 6 :Workspace 6
 Control Mod1 7 :Workspace 7
 Control Mod1 8 :Workspace 8
 Control Mod1 9 :Workspace 9
-Control Mod1 0 :Workspace 10
+#Control Mod1 0 :Workspace 10
 
 
 ## send the current window to a specific workspace
@@ -625,7 +625,7 @@ Shift Mod1 6 :SendToWorkspace 6
 Shift Mod1 7 :SendToWorkspace 7
 Shift Mod1 8 :SendToWorkspace 8
 Shift Mod1 9 :SendToWorkspace 9
-Shift Mod1 0 :SendToWorkspace 10
+#Shift Mod1 0 :SendToWorkspace 10
 
 
 # send the current window and change to a specific workspace
@@ -638,7 +638,7 @@ Shift Mod4 6 :TakeToWorkspace 6
 Shift Mod4 7 :TakeToWorkspace 7
 Shift Mod4 8 :TakeToWorkspace 8
 Shift Mod4 9 :TakeToWorkspace 9
-Shift Mod4 0 :TakeToWorkspace 10
+#Shift Mod4 0 :TakeToWorkspace 10
 
 
 ##
