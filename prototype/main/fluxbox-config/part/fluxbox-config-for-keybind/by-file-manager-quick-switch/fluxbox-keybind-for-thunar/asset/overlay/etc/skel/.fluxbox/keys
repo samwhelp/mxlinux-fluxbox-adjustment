@@ -178,8 +178,8 @@ OnWindowBorder Move1 :StartMoving
 
 OnTitlebar Double Mouse1 :Maximize
 OnTitlebar Mouse3 :WindowMenu
-OnTitlebar Mouse4 :Shade
-OnTitlebar Mouse5 :Shade
+OnTitlebar Mouse4 :ShadeOn
+OnTitlebar Mouse5 :ShadeOff
 
 
 OnTitlebar Mouse1 :MacroCmd {Focus} {Raise} {ActivateTab}
