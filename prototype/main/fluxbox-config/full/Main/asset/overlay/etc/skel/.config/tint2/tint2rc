@@ -209,8 +209,8 @@ launcher_item_app = /usr/share/applications/xfce4-appfinder-mxfb.desktop
 
 #-------------------------------------
 # Clock
-time1_format=%l:%M
-time2_format = 
+time1_format = %H:%M:%S
+time2_format = %A %Y-%m-%d
 time1_font = Noto Sans Bold 12
 time1_timezone = 
 time2_timezone = 
