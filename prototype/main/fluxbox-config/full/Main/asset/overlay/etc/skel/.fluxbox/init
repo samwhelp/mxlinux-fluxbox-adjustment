@@ -42,7 +42,7 @@ session.screen0.menuDelay:	200
 session.screen0.rowPlacementDirection:	LeftToRight
 session.screen0.defaultDeco:	NORMAL
 session.screen0.workspacewarping:	true
-session.screen0.workspaceNames:	 W-1, W-2
+session.screen0.workspaceNames:	W-1, W-2, W-3, W-4
 session.screen0.allowRemoteActions:	true
 session.screen0.windowPlacement:	RowMinOverlapPlacement
 session.screen0.maxIgnoreIncrement:	true
@@ -56,8 +56,8 @@ session.screen0.opaqueMove:	true
 session.screen0.colPlacementDirection:	TopToBottom
 session.screen0.tabFocusModel:	ClickToTabFocus
 session.screen0.noFocusWhileTypingDelay:	0
-session.screen0.strftimeFormat:	%I:%M  %b %d
-session.screen0.workspaces:	2
+session.screen0.strftimeFormat:	%I:%M:%S  %b %d
+session.screen0.workspaces:	4
 session.screen0.rootCommand:	~/.fehbg -l
 ##new additions 06/2023
 session.screen0.struts.1:	0,0,0,0
