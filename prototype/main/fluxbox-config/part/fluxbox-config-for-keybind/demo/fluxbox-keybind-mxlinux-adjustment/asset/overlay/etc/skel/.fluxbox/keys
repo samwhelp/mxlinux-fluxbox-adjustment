@@ -97,6 +97,7 @@ OnRightGrip Move1 :StartResizing bottomright
 
 # control-click a window's titlebar and drag to attach windows
 OnTitlebar Control Mouse1 :StartTabbing
+# middle drag a window's titlebar and drag to attach windows
 OnTitlebar Mouse2 :StartTabbing
 
 # double click on the titlebar to shade/unshade
@@ -105,7 +106,7 @@ OnTitlebar Mouse2 :StartTabbing
 # double click on the titlebar to maximize
 OnTitlebar Double Mouse1 :Maximize
 
-## middle scroll on the titlebar to toggle shade or unshade
+# middle scroll on the titlebar to toggle shade or unshade
 OnTitlebar Mouse4 :ShadeOn
 OnTitlebar Mouse5 :ShadeOff
 
