@@ -98,7 +98,7 @@
 #OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 
 ## > Alt + mouse right drag a window to resize window
-#OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+##OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
 #OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 
 ## > Alt + mouse middle click on a window to lower window
@@ -113,7 +113,7 @@
 OnWindow Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 
 ## > Win + mouse right drag a window to resize window
-OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+##OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
 OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 
 ## > Win + mouse middle click on a window to lower window
@@ -140,7 +140,7 @@ OnWindow Mod4 Mouse2 :Lower
 #OnTitlebar Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 
 ## > Alt + mouse right drag a window to resize window
-#OnTitlebar Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+#OnTitlebar Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 
 ## > Alt + mouse middle click on a window to lower window
 #OnTitlebar Mod1 Mouse2 :Lower
@@ -154,7 +154,7 @@ OnWindow Mod4 Mouse2 :Lower
 OnTitlebar Mod4 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 
 ## > Win + mouse right drag a window to resize window
-OnTitlebar Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+OnTitlebar Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 
 ## > Win + mouse middle click on a window to lower window
 OnTitlebar Mod4 Mouse2 :Lower
