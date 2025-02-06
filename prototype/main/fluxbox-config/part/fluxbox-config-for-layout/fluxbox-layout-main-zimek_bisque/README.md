@@ -8,7 +8,7 @@
 
 | Config File Path |
 | --- |
-| [~/.config/fluxbox/keys](./asset/overlay/etc/skel/.config/fluxbox/keys) |
+| [~/.fluxbox/init](./asset/overlay/etc/skel/.fluxbox/init) |
 
 
 
