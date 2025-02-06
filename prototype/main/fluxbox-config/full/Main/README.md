@@ -1,9 +1,9 @@
 
 
-# Xfce Config
+# Fluxbox Config
 
 * [Config File Path](#config-file-path)
-* [Ubuntu Package](#ubuntu-package)
+* [Debian Package](#debian-package)
 * [Usage](#usage)
 
 
@@ -11,7 +11,7 @@
 
 ## Config File Path
 
-* [xfce](#xfce)
+* [fluxbox](#fluxbox)
 * [default-cursor-theme](#default-cursor-theme)
 * [gtk2](#gtk2)
 * [gtk3](#gtk3)
@@ -25,21 +25,16 @@
 * [pcmanfm-qt](#pcmanfm-qt)
 * [qterminal](#qterminal)
 * [sakura](#sakura)
+* [featherpad](#featherpad)
 
 
-### xfce
+### fluxbox
 
 | Config File Path |
 | --- |
-| [~/.config/xfce4/helpers.rc](./asset/overlay/etc/skel/.config/xfce4/helpers.rc) |
-| [~/.config/xfce4/panel/whiskermenu-1.rc](./asset/overlay/etc/skel/.config/xfce4/panel/whiskermenu-1.rc) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml) |
+| [~/.fluxbox/init](./asset/overlay/etc/skel/.fluxbox/init) |
+| [~/.fluxbox/keys](./asset/overlay/etc/skel/.fluxbox/keys) |
+| [~/.fluxbox/overlay](./asset/overlay/etc/skel/.fluxbox/overlay) |
 
 
 ### default-cursor-theme
@@ -138,13 +133,22 @@
 | [~/.config/sakura/sakura.conf](./asset/overlay/etc/skel/.config/sakura/sakura.conf) |
 
 
+### featherpad
 
-
-## Ubuntu Package
-
-| Ubuntu Package |
+| Config File Path |
 | --- |
-| [xfce4](https://packages.ubuntu.com/noble/xfce4) |
+| [~/.config/featherpad/fp.conf](./asset/overlay/etc/skel/.config/featherpad/fp.conf) |
+| [~/.config/featherpad/fp_dark_syntax_colors.conf](./asset/overlay/etc/skel/.config/featherpad/fp_dark_syntax_colors.conf) |
+| [~/.config/featherpad/fp_light_syntax_colors.conf](./asset/overlay/etc/skel/.config/featherpad/fp_light_syntax_colors.conf) |
+
+
+
+
+## Debian Package
+
+| Debian Package |
+| -------------- |
+| [fluxbox](https://packages.debian.org/stable/fluxbox) |
 
 
 
