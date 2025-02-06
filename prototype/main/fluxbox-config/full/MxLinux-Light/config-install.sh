@@ -4,39 +4,45 @@ set -e
 
 
 ################################################################################
-### Head: xfce
+### Head: fluxbox
 ##
 
-xfce_config_run_pre () {
+fluxbox_config_run_pre () {
 
-	xfce_service_stop
+	return 0
+
+
+	fluxbox_service_stop
 
 
 	return 0
 
 }
 
-xfce_config_run_post () {
+fluxbox_config_run_post () {
 
-	xfce_service_start
+	return 0
+
+
+	fluxbox_service_start
 
 
 	return 0
 
 }
 
-xfce_service_stop () {
+fluxbox_service_stop () {
 
-	xfce_service_stop_xfconfd
+	fluxbox_service_stop_xfconfd
 
-	#xfce_service_stop_xfsettingsd
+	#fluxbox_service_stop_xfsettingsd
 
 
 	return 0
 
 }
 
-xfce_service_stop_xfconfd () {
+fluxbox_service_stop_xfconfd () {
 
 	if killall -9 xfconfd; then
 		return 0
@@ -47,7 +53,7 @@ xfce_service_stop_xfconfd () {
 
 }
 
-xfce_service_stop_xfsettingsd () {
+fluxbox_service_stop_xfsettingsd () {
 
 	if killall -9 xfsettingsd; then
 		return 0
@@ -58,30 +64,30 @@ xfce_service_stop_xfsettingsd () {
 
 }
 
-xfce_service_start () {
+fluxbox_service_start () {
 
 
 	return 0
 
 }
 
-xfce_config_install () {
+fluxbox_config_install () {
 
 	echo
 	echo "##"
-	echo "## Config: xfce"
+	echo "## Config: fluxbox"
 	echo "##"
 	echo
 
 
-	xfce_config_install_by_dir
+	fluxbox_config_install_by_dir
 
 
 	echo
 
 }
 
-xfce_config_install_by_dir () {
+fluxbox_config_install_by_dir () {
 
 
 	echo
@@ -97,7 +103,7 @@ xfce_config_install_by_dir () {
 }
 
 ##
-### Tail: xfce
+### Tail: fluxbox
 ################################################################################
 
 
@@ -107,11 +113,11 @@ xfce_config_install_by_dir () {
 
 main_config_install () {
 
-	xfce_config_run_pre
+	fluxbox_config_run_pre
 
-	xfce_config_install
+	fluxbox_config_install
 
-	xfce_config_run_post
+	fluxbox_config_run_post
 
 }
 
