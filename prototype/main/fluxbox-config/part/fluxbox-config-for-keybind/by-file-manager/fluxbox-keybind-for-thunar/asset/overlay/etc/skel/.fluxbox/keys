@@ -562,8 +562,8 @@ Mod1 Shift e :Exec featherpad
 #Mod1 Shift s :Exec system-settings
 
 
-#Mod1 Shift v :Exec pavucontrol
-Mod1 Shift v :Exec mate-volume-control
+Mod1 Shift v :Exec pavucontrol
+#Mod1 Shift v :Exec mate-volume-control
 
 
 ##
@@ -805,16 +805,16 @@ Shift Mod4 9 :TakeToWorkspace 9
 ## ## Window / Resize / Up,Down,Left,Right
 ##
 
-Shift Mod4 Up :Resize 0 -2
-Shift Mod4 Down :Resize 0 2
-Shift Mod4 Left :Resize -2 0
-Shift Mod4 Right :Resize 2 0
+Shift Mod4 Up :Resize 0 -20
+Shift Mod4 Down :Resize 0 20
+Shift Mod4 Left :Resize -20 0
+Shift Mod4 Right :Resize 20 0
 
 
-Control Mod4 Up :Resize 0 -1
-Control Mod4 Down :Resize 0 1
-Control Mod4 Left :Resize -1 0
-Control Mod4 Right :Resize 1 0
+Control Mod4 Up :Resize 0 -10
+Control Mod4 Down :Resize 0 10
+Control Mod4 Left :Resize -10 0
+Control Mod4 Right :Resize 10 0
 
 
 ##
