@@ -374,18 +374,20 @@ Control Alt Delete :Exit
 
 
 ## > suspend
-Mod1 Control z :Exec obsession-exit --suspend
+#Mod1 Control z :Exec obsession-exit --suspend
 
 
 ## > shutdown
 #Mod1 Shift z :Exec systemctl halt
-Mod1 Shift z :Exec obsession-logout
+#Mod1 Shift z :Exec obsession-logout
 #Mod1 Shift z :Exec obsession-exit --poweroff
+Mod1 Shift z :Exec exit-options
 
 
 ## > logout
 #Mod1 Shift x :Exit
-Mod1 Shift x :Exec obsession-logout
+#Mod1 Shift x :Exec obsession-logout
+Mod1 Shift x :Exec exit-options
 
 
 ## > reconfigure
