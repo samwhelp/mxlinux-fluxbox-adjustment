@@ -90,7 +90,7 @@ OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnTitlebar Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindowBorder Move1 :StartMoving
 
-## alt + mouse right button drag to resize a window
+# alt + mouse right button drag to resize a window
 OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 OnTitlebar Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 OnLeftGrip Move1 :StartResizing bottomleft
