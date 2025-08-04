@@ -113,7 +113,7 @@ OnTitlebar Mouse5 :ShadeOff
 OnTitlebar Mouse1 :MacroCmd {Raise} {Focus} {ActivateTab}
 OnTitlebar Move1  :StartMoving
 
-# see a menu of window options
+# mouse right button click to see a menu of window options
 OnTitlebar Mouse3 :WindowMenu
 
 #for apps using CSD try this instead
