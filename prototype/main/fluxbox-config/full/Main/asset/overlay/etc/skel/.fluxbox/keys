@@ -554,12 +554,13 @@ Mod1 Shift d :Exec rofi -show drun -show-icons
 ##
 
 Mod1 Shift f :Exec thunar
+Mod1 Shift g :Exec pcmanfm
 Mod1 Shift b :Exec firefox --new-tab about:blank
-Mod1 Shift g :Exec pcmanfm-qt
 Mod1 Shift e :Exec featherpad
 
 
 #Mod1 Shift s :Exec system-settings
+Mod1 Shift s :Exec lxappearance
 
 
 Mod1 Shift v :Exec pavucontrol
