@@ -998,6 +998,77 @@ Mod1 KP_0 :ToggleCmd {Maximize} {Restore}
 
 
 ################################################################################
+### Head: Screenshot / xfce4-screenshooter
+##
+
+
+##
+## ## xfce4-screenshooter
+##
+## run to install xfce4-screenshooter
+##
+## ``` sh
+## sudo apt-get install xfce4-screenshooter
+## ```
+##
+
+
+##
+## ## xfce4-screenshooter
+##
+## run
+##
+## ``` sh
+## xfce4-screenshooter -h
+## ```
+##
+## show
+##
+## ```
+## Usage:
+##   xfce4-screenshooter [OPTION…]
+##
+## Help Options:
+##   -h, --help               Show help options
+##   --help-all               Show all help options
+##   --help-gtk               Show GTK+ Options
+##
+## Application Options:
+##   -c, --clipboard          Copy the screenshot to the clipboard
+##   -d, --delay              Delay in seconds before taking the screenshot
+##   -f, --fullscreen         Take a screenshot of the entire screen
+##   -m, --mouse              Display the mouse on the screenshot
+##   --no-border              Removes the window border from the screenshot
+##   -o, --open               Application to open the screenshot
+##   -r, --region             Select a region to be captured by clicking a point of the screen without releasing the mouse button, dragging your mouse to the other corner of the region, and releasing the mouse button.
+##   -s, --save               File path or directory where the screenshot will be saved, accepts png, jpg and bmp extensions. webp, jxl and avif are only supported if their respective pixbuf loaders are installed.
+##   -S, --show in folder     Show the saved file in the folder.
+##   -V, --version            Version information
+##   -w, --window             Take a screenshot of the active window
+##   --supported-formats      Lists supported image formats, results can vary depending on installed pixbuf loaders
+##   --display=DISPLAY        X display to use
+##
+## ```
+##
+
+
+#Print :Exec xfce4-screenshooter --fullscreen
+
+#Mod4 Print :Exec xfce4-screenshooter --window
+
+#Control Print :Exec xfce4-screenshooter --region
+
+#Alt Print :Exec xfce4-screenshooter
+
+
+##
+### Tail: Screenshot / xfce4-screenshooter
+################################################################################
+
+
+
+
+################################################################################
 ### Head: Screenshot / screengrab
 ##
 
@@ -1097,7 +1168,7 @@ Mod1 Shift bracketleft :Exec brightnessctl set 5%-
 ##
 ## ## amixer
 ##
-## run to install pamixer
+## run to install amixer
 ##
 ## ``` sh
 ## sudo apt-get install alsa-utils
@@ -1125,11 +1196,12 @@ Mod1 Shift bracketleft :Exec brightnessctl set 5%-
 ## ## Fn Key
 ##
 
-XF86AudioMute :Exec amixer -q -D pulse sset Master toggle
+#XF86AudioMute :Exec amixer -q -D pulse sset Master toggle
 
-XF86AudioRaiseVolume :Exec amixer -q -D pulse sset Master 5%+ unmute
 
-XF86AudioLowerVolume :Exec amixer -q -D pulse sset Master 5%- unmute
+#XF86AudioLowerVolume :Exec amixer -q -D pulse sset Master 5%- unmute
+
+#XF86AudioRaiseVolume :Exec amixer -q -D pulse sset Master 5%+ unmute
 
 
 
@@ -1138,19 +1210,17 @@ XF86AudioLowerVolume :Exec amixer -q -D pulse sset Master 5%- unmute
 ##  ## Extra Key
 ##
 
-Mod1 m :Exec amixer -q -D pulse sset Master toggle
+#Mod1 m :Exec amixer -q -D pulse sset Master toggle
 
 
-Mod1 Shift period :Exec amixer -q -D pulse sset Master 5%+ unmute
+#Mod1 Shift comma :Exec amixer -q -D pulse sset Master 5%- unmute
 
-Mod1 Shift comma :Exec amixer -q -D pulse sset Master 5%- unmute
-
-
-Mod1 Control period :Exec amixer -q -D pulse sset Master 1%+ unmute
-
-Mod1 Control comma :Exec amixer -q -D pulse sset Master 1%- unmute
+#Mod1 Shift period :Exec amixer -q -D pulse sset Master 5%+ unmute
 
 
+#Mod1 Control comma :Exec amixer -q -D pulse sset Master 1%- unmute
+
+#Mod1 Control period :Exec amixer -q -D pulse sset Master 1%+ unmute
 
 
 ##
@@ -1180,11 +1250,12 @@ Mod1 Control comma :Exec amixer -q -D pulse sset Master 1%- unmute
 ## ## Fn Key
 ##
 
-#XF86AudioMute :Exec pamixer --toggle-mute
+XF86AudioMute :Exec pamixer --toggle-mute
 
-#XF86AudioRaiseVolume :Exec amixer -q -D pulse sset Master 5%+ unmute
 
-#XF86AudioLowerVolume :Exec amixer -q -D pulse sset Master 5%- unmute
+XF86AudioLowerVolume :Exec pamixer -d 5
+
+XF86AudioRaiseVolume :Exec pamixer -i 5
 
 
 
@@ -1193,19 +1264,17 @@ Mod1 Control comma :Exec amixer -q -D pulse sset Master 1%- unmute
 ##  ## Extra Key
 ##
 
-#Mod1 m :Exec pamixer --toggle-mute
+Mod1 m :Exec pamixer --toggle-mute
 
 
-#Mod1 Shift period :Exec pamixer -i 5
+Mod1 Shift comma :Exec pamixer -d 5
 
-#Mod1 Shift comma :Exec pamixer -d 5
-
-
-#Mod1 Control period :Exec pamixer -i 1
-
-#Mod1 Control comma :Exec pamixer -d 1
+Mod1 Shift period :Exec pamixer -i 5
 
 
+Mod1 Control comma :Exec pamixer -d 1
+
+Mod1 Control period :Exec pamixer -i 1
 
 
 ##
