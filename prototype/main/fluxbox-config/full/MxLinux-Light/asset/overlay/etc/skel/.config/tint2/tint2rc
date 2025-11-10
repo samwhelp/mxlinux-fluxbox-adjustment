@@ -139,7 +139,7 @@ border_color_pressed = #0f56d9 100
 #-------------------------------------
 # Panel
 panel_items = PPPP:T:SCP
-panel_size = 100% 45
+panel_size = 85% 45
 panel_margin = 1 0
 panel_padding = 8 4 4
 panel_background_id = 1
@@ -236,8 +236,8 @@ launcher_tooltip = 1
 
 #-------------------------------------
 # Clock
-time1_format = %l:%M
-time2_format = 
+time1_format = %H:%M:%S
+time2_format = %A %Y-%m-%d
 time1_font = Liberation Sans 12
 time1_timezone = 
 time2_timezone = 
