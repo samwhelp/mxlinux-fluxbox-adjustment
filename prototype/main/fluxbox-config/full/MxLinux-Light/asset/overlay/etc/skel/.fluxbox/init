@@ -84,7 +84,7 @@ session.screen0.workspacewarping:	true
 session.screen0.workspacewarpingvertical:	false
 session.screen0.workspacewarpingverticaloffset:	1
 session.slitlistFile:	~/.fluxbox/slitlist
-session.styleFile:	~/.fluxbox/styles/MX-comfort
+session.styleFile:	/usr/share/mxflux/styles/MX-Matcha
 session.styleOverlay:	~/.fluxbox/overlay
 session.tabPadding:	0
 session.tabsAttachArea:	Window
