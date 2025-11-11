@@ -5,8 +5,8 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Mx Linux Fluxbox Adjustment](https://samwhelp.github.io/mxlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
-| [Mx Linux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
 | [Mx Linux Fluxbox Note](https://samwhelp.github.io/note-about-mxlinux-fluxbox/) | [GitHub](https://github.com/samwhelp/note-about-mxlinux-fluxbox) |
+| [Mx Linux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
 
 
 
@@ -23,7 +23,7 @@
 
 | Script |
 | ------ |
-| [Mx Linux Fluxbox Config](https://github.com/samwhelp/mxlinux-fluxbox-adjustment/tree/main/prototype/main/fluxbox-config) |
+| [Mx Linux Fluxbox Config](https://github.com/samwhelp/mxlinux-fluxbox-adjustment/tree/main/prototype/main/fluxbox-config/full/Main) |
 | [Tool Config](https://github.com/samwhelp/mxlinux-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
@@ -36,3 +36,10 @@
 | [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
 | [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
 | [Linux Mint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
