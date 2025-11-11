@@ -4,9 +4,9 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Mx Linux Fluxbox Adjustment](https://samwhelp.github.io/mxlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
-| [Mx Linux Fluxbox Note](https://samwhelp.github.io/note-about-mxlinux-fluxbox/) | [GitHub](https://github.com/samwhelp/note-about-mxlinux-fluxbox) |
-| [Mx Linux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
+| [MxLinux Fluxbox Adjustment](https://samwhelp.github.io/mxlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
+| [MxLinux Fluxbox Note](https://samwhelp.github.io/note-about-mxlinux-fluxbox/) | [GitHub](https://github.com/samwhelp/note-about-mxlinux-fluxbox) |
+| [MxLinux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
 
 
 
@@ -23,7 +23,7 @@
 
 | Script |
 | ------ |
-| [Mx Linux Fluxbox Config](https://github.com/samwhelp/mxlinux-fluxbox-adjustment/tree/main/prototype/main/fluxbox-config/full/Main) |
+| [MxLinux Fluxbox Config](https://github.com/samwhelp/mxlinux-fluxbox-adjustment/tree/main/prototype/main/fluxbox-config/full/Main) |
 | [Tool Config](https://github.com/samwhelp/mxlinux-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
