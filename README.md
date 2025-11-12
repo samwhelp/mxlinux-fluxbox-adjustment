@@ -1,6 +1,11 @@
 
 
-# Home
+# mxlinux-fluxbox-adjustment
+
+
+
+
+## Home
 
 | Link | GitHub |
 | ---- | ------ |
@@ -33,9 +38,11 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
-| [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
-| [LinuxMint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
+| [Fluxbox Adjustment](https://samwhelp.github.io/fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/fluxbox-adjustment) |
+| [Debian Fluxbox Adjustment](https://samwhelp.github.io/debian-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/debian-fluxbox-adjustment) |
+| [Ubuntu Fluxbox Adjustment](https://samwhelp.github.io/ubuntu-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-fluxbox-adjustment) |
+| [Fedora Fluxbox Adjustment](https://samwhelp.github.io/fedora-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-fluxbox-adjustment) |
+| [Archlinux Fluxbox Adjustment](https://samwhelp.github.io/Archlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/Archlinux-fluxbox-adjustment) |
 
 
 
