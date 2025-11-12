@@ -1,11 +1,6 @@
 
 
-# mxlinux-fluxbox-adjustment
-
-
-
-
-## Home
+# Home
 
 | Link | GitHub |
 | ---- | ------ |
