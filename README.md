@@ -42,7 +42,7 @@
 | [Debian Fluxbox Adjustment](https://samwhelp.github.io/debian-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/debian-fluxbox-adjustment) |
 | [Ubuntu Fluxbox Adjustment](https://samwhelp.github.io/ubuntu-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-fluxbox-adjustment) |
 | [Fedora Fluxbox Adjustment](https://samwhelp.github.io/fedora-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-fluxbox-adjustment) |
-| [Archlinux Fluxbox Adjustment](https://samwhelp.github.io/Archlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/Archlinux-fluxbox-adjustment) |
+| [Archlinux Fluxbox Adjustment](https://samwhelp.github.io/archlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/Archlinux-fluxbox-adjustment) |
 
 
 
